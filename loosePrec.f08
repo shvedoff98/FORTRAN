@@ -1,0 +1,15 @@
+PROGRAM EPSP
+
+      REAL A,B,C
+      DOUBLE PRECISION A1,B1,C1
+      A=123456789
+      B=123456788
+      C=A-B
+      PRINT *,C
+
+      A1=123456789
+      B1=123456788
+      C1=A1-B1
+      PRINT *,C1
+      1 FORMAT (4E14.4)
+      END
