@@ -12,7 +12,6 @@
         
         FX = LOG(XP);PRINT*,"THE INITIAL F(XP) IS",FX
         
-3       FORMAT(E12.5)
         PRINT*,"THE INTORPOLATED  G(XP) IS",YP
         ERROR = FX-YP;PRINT*,"ERROR IS ",ERROR
         STOP
