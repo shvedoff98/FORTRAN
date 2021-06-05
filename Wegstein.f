@@ -1,7 +1,7 @@
         PROGRAM WEGSTEIN
         !FORTRAN PROGRAM TO IMPLEMENT WEGSTEIN METHOD
         
-        G(X) = (X)**2-1 !Choose whatever g(x)
+        G(X) = 1 / X !Choose whatever g(x)
         PRINT*,"ENTER VALUE OF X1: "; READ* ,X1
         PRINT*,"NUMBER OF ITERATIONS: "; READ*,N 
        
